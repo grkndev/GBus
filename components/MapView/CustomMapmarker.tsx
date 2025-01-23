@@ -15,7 +15,7 @@ const CustomMarker = React.memo(({ location }: { location: any }) => {
       title={location.name}
       onCalloutPress={() => {
         router.push(("/bus-station/" + location.id) as any);
-      }}
+      }} 
       // icon={require("../../assets/images/bus-front.png")}
     >
       {/* <Callout>
