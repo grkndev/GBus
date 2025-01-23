@@ -7,7 +7,7 @@ import CustomMarker from "@/components/MapView/CustomMapmarker";
 import locaitons from "@/assets/mapLocations/locations.json";
 import { useRouter } from "expo-router";
 export default function MapScreen() {
-  const router = useRouter();
+
   const [hasLocationPermission, setHasLocationPermission] = useState(false);
   const [location, setLocation] = useState<Location.LocationObject | null>(
     null
@@ -59,9 +59,7 @@ export default function MapScreen() {
               <CustomMarker
                 key={location.id}
                 location={location}
-                onPress={() =>
-                  router.push(("/bus-station/" + location.id) as any)
-                }
+               
               />
             ))}
           </MapView>
