@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "latitude": 37.588989,
+    "longitude": 36.854849,
+    "name": "Ukkaşe Camii",
+    "code": 1001
+  },
+  {
+    "id": 2,
+    "latitude": 37.588245,
+    "longitude": 36.853015,
+    "name": "Bahaettin Karakoç İlkokulu",
+    "code": 1002
+  },
+  {
+    "id": 3,
+    "latitude": 37.587148,
+    "longitude": 36.854695,
+    "name": "Güneştepe Sitesi",
+    "code": 1003
+  },
+  {
+    "id": 4,
+    "latitude": 37.588116,
+    "longitude": 36.857123,
+    "name": "Zafer Apartmanı",
+    "code": 1004
+  },
+  {
+    "id": 5,
+    "latitude": 37.587719,
+    "longitude": 36.857552,
+    "name": "Mevsim Sitesi",
+    "code": 1005
+  },
+
+  {
+    "id": 6,
+    "latitude": 37.586943,
+    "longitude": 36.85817,
+    "name": "Maraş Modern",
+    "code": 1006
+  }
+]
