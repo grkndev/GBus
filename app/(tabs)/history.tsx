@@ -23,7 +23,7 @@ export default function HistoryScreen() {
         <Text className="text-white font-bold text-3xl p-2">Geçmiş</Text>
         <FlatList
           data={data}
-          renderItem={({ item, index }) => <HCard index={index} {...item} />}
+          renderItem={({ item, index }) => <HCard {...item} />}
           keyExtractor={(item, index) => index.toString()}
           className="w-full flex-1 "
           ItemSeparatorComponent={() => <View className="h-[1] bg-gray-800" />}
@@ -38,27 +38,21 @@ function HCard({
   date,
   amount,
   isIncome,
-  index,
 }: {
   title: string;
   date: string;
   amount: number;
   isIncome: boolean;
-  index: number;
 }) {
-  const color = isIncome ? "green" : "red";
+  const color = isIncome ? "text-green-500" : "text-red-500";
   return (
     <View className="flex flex-row items-center justify-between py-2">
       <View className="flex flex-col ">
-        <Text className={`text-${color}-500 font-bold text-lg`}>
-          {index + 1}
-          {" - "}
-          {title}
-        </Text>
-        <Text className={`text-${color}-500 text-sm`}>{date}</Text>
+        <Text className={`${color} font-bold text-lg`}>{title}</Text>
+        <Text className={`${color} text-sm`}>{date}</Text>
       </View>
       <View>
-        <Text className={`text-${color}-500 font-bold text-lg`}>
+        <Text className={`${color} font-bold text-lg`}>
           {isIncome ? "+" : "-"}
           {Number(amount).toFixed(2)} TL
         </Text>
