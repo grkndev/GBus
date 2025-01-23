@@ -23,9 +23,9 @@ const CustomMarker = React.memo(({ location }: { location: any }) => {
             <Text className="text-xl">{location.name}</Text>
           </View>
         </Callout> */}
-      <View className="bg-red-500 w-9 h-9 rounded-full items-center justify-center">
+      {/* <View className="bg-red-500 w-9 h-9 rounded-full items-center justify-center">
         <Icon name="BusFront" size={16} color="white" />
-      </View>
+      </View> */}
     </Marker>
   );
 });
