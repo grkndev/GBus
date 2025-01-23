@@ -26,7 +26,7 @@ export default function HistoryScreen() {
           renderItem={({ item, index }) => <HCard {...item} />}
           keyExtractor={(item, index) => index.toString()}
           className="w-full flex-1 "
-          ItemSeparatorComponent={() => <View className="h-[1] bg-gray-800" />}
+          ItemSeparatorComponent={() => <View className="h-[1] bg-zinc-800" />}
         />
       </View>
     </SafeAreaView>
