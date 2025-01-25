@@ -7,7 +7,6 @@ import CustomMarker from "@/components/MapView/CustomMapmarker";
 import locaitons from "@/assets/mapLocations/locations.json";
 import { useRouter } from "expo-router";
 export default function MapScreen() {
-
   const [hasLocationPermission, setHasLocationPermission] = useState(false);
   const [location, setLocation] = useState<Location.LocationObject | null>(
     null
@@ -56,15 +55,11 @@ export default function MapScreen() {
             minZoomLevel={12}
           >
             {locaitons.map((location) => (
-              <CustomMarker
-                key={location.id}
-                location={location}
-               
-              />
+              <CustomMarker key={location.id} location={location} />
             ))}
           </MapView>
         ) : (
-          <Text>Location permission not granted</Text>
+          <Text className=" text-white">Location permission not granted</Text>
         )}
       </View>
     </SafeAreaView>
