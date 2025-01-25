@@ -18,7 +18,7 @@ const data = [
 ];
 export default function HistoryScreen() {
   return (
-    <SafeAreaView className="flex-1 bg-black">
+    <SafeAreaView className="flex-1 bg-[#0A0A0A]">
       <View className="flex flex-1 flex-col p-4 gap-4  items-center w-full">
         <Text className="text-white font-bold text-3xl p-2">Geçmiş</Text>
         <FlatList
