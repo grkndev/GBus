@@ -18,9 +18,11 @@ const data = [
 ];
 export default function HistoryScreen() {
   return (
-    <SafeAreaView className="flex-1 bg-[#0A0A0A]">
-      <View className="flex flex-1 flex-col p-4 gap-4  items-center w-full">
-        <Text className="text-white font-bold text-3xl p-2">Geçmiş</Text>
+    <SafeAreaView className="flex-1 bg-[#0D0D0D]">
+      <View className="flex flex-1 flex-col p-4 gap-4  items-start w-full">
+        <View className="">
+          <Text className="text-white text-2xl font-bold">Geçmiş</Text>
+        </View>
         <FlatList
           data={data}
           renderItem={({ item, index }) => <HCard {...item} />}
