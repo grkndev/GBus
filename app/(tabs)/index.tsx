@@ -5,7 +5,7 @@ import Card from "@/components/Cards/card";
 import Indicator from "@/components/Cards/Indicator";
 export default function HomeScreen() {
   return (
-    <SafeAreaView className="flex-1 bg-[#0A0A0A] px-8 py-4 gap-8">
+    <SafeAreaView className="flex-1 bg-[#0D0D0D] px-8 py-4 gap-8">
       {/* Header */}
       <View className="pt-4">
         <Text className="text-white text-3xl font-bold">Hoşgeldiniz,</Text>

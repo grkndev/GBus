@@ -19,7 +19,7 @@ export default function TabBarLayout() {
       <TabSlot />
       <TabList
         style={{
-          backgroundColor: "#0A0A0A",
+          backgroundColor: "#0D0D0D",
           borderTopWidth: 1,
           borderTopColor: "#232323",
           height: 96,
