@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# GBus - Akıllı Otobüs Durağı Uygulaması 🚌
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+GBus, otobüs duraklarını ve güzergahları takip etmenizi sağlayan modern bir mobil uygulamadır. Gerçek zamanlı otobüs konumları, durak bilgileri ve rota planlaması gibi özellikleri ile toplu taşıma deneyiminizi iyileştirir.
 
-## Get started
+## 📱 Uygulama Görüntüleri
 
-1. Install dependencies
+<div align="center">
+  <img src="assets/images/demo/Screenshot_172417.png" alt="GBus Ana Ekran" width="200"/>
+  <img src="assets/images/demo/Screenshot_172425.png" alt="GBus Harita Görünümü" width="200"/>
+  <img src="assets/images/demo/Screenshot_172444.png" alt="GBus Durak Detayları" width="200"/>
+  <img src="assets/images/demo/Screenshot_172449.png" alt="GBus Rota Planlama" width="200"/>
+  <img src="assets/images/demo/Screenshot_172455.png" alt="GBus Ayarlar" width="200"/>
+</div>
 
-   ```bash
-   npm install
-   ```
+## ✨ Özellikler
 
-2. Start the app
+- 🗺️ Gerçek zamanlı otobüs konumu takibi
+- 📍 En yakın durakları bulma
+- 🕒 Otobüs varış süreleri
+- 📱 Kullanıcı dostu arayüz
+- 🌙 Karanlık mod desteği
+- 📊 Seyahat geçmişi
+- ⭐ Favori durakları kaydetme
+- 🔍 Durak ve hat arama
+- 📲 Anlık bildirimler
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Teknolojiler
 
-In the output, you'll find options to open the app in a
+- React Native
+- Expo
+- TypeScript
+- Tailwind CSS
+- React Navigation
+- MapView
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Başlangıç
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Projeyi klonlayın:
 ```bash
-npm run reset-project
+git clone https://github.com/grkndev/GBus.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Bağımlılıkları yükleyin:
+```bash
+cd GBus
+npm install
+```
 
-## Learn more
+3. Uygulamayı başlatın:
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📄 Lisans
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
-## Join the community
+## 🤝 Katkıda Bulunma
 
-Join our community of developers creating universal apps.
+Katkılarınızı bekliyoruz! Lütfen bir pull request göndermeden önce değişikliklerinizi tartışmak için bir konu açın.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📞 İletişim
+
+Sorularınız için [issues](https://github.com/grkndev/GBus/issues) bölümünü kullanabilirsiniz.
